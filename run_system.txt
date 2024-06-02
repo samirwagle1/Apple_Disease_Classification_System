@@ -1,0 +1,19 @@
+The below are the version of libraries/software (dependencies) developed for the current system
+
+Python - 3.11.5 
+Flask - 3.0.3
+Scikit-learn - 1.4.2
+Numpy - 1.26.4
+Waitress - 3.0.0
+Joblib - 1.4.2
+
+To run the system:
+    -go inside project folder
+    -activate virual environment using this command:- appledisease\Scripts\activate
+    -enter this command:-  waitress-serve --listen=127.0.0.1:5000 app:app
+        - or you can run the 'python app.py' command
+        - or you can use 'flask run' command
+
+To install the dependencies:
+    - first activate virual environment using this command:- appledisease\Scripts\activate
+    - Then, you can use the command pip install -r requirements.txt to install all the packages listed in the requirements.txt file.

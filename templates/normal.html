@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, wclassth=device-wclassth" />
+    <title>Normal Apple</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <button onclick="showEnglish()">English</button>
+            <button onclick="showNepali()">नेपाली</button>
+        </div>
+        <h1 class="en">The Fruit is Normal and Doesn't Have Any Disease Symptoms.</h1>
+        <h1 class="np">फल साधारण छ र त्यसमा कुनै रोगको लक्षण छैन।</h1>
+    </div>
+
+    <script src="{{ url_for('static', filename='result.js') }}"></script>
+</body>
+
+</html>

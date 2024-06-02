@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+</head>
+
+<body>
+    <h1 class="systemName">Apple Fruit Disease Classification System</h1>
+    <div class="container">
+
+        <div class="hud-manager">
+            <h2>Upload Image</h2>
+            <form action="/classify" method="post" enctype="multipart/form-data" id="upload-form">
+                <section class="rectangle-parent">
+
+                    <div id="drag-drop-area" class="drag-drop-area">
+                        <img class="uiwcloud-upload-icon" loading="lazy" alt=""
+                            src="{{ url_for('static', filename='images/upload.png') }}" />
+                    </div>
+                    <div class="drag-and-drop">Drag and drop</div>
+                    <div class="or-wrapper">
+                        <div class="or">Or</div>
+                    </div>
+                    <div class="common-button-wrapper">
+                        <input type="file" id="file-input" class="file-input" accept="image/*" hidden name="file">
+                        <button class="common-button" id="browse-button" type="button">Browse</button>
+                    </div>
+                </section>
+            </form>
+            <section class="file-display">
+                <div class="file-grid">
+                    <div class="img-1">
+                        <img class="mdifile-image-icon" loading="lazy" alt=""
+                            src="{{ url_for('static', filename='images/fileimg.png') }}" />
+                        <div class="frame-parent">
+                            <div class="frame-wrapper">
+                                <div class="fn-parent">
+                                    <div id="filename-display" class="fn-parent">No file selected</div>
+                                </div>
+                            </div>
+                            <div class="vector-parent">
+                                <img class="frame-item" loading="lazy" alt=""
+                                    src="{{ url_for('static', filename='images/line1.png') }}" />
+                                <img class="frame-inner" loading="lazy" alt=""
+                                    src="{{ url_for('static', filename='images/line2.png') }}" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="button-container">
+                <button type="submit" form="upload-form" id="submit-button-id" class="submit-button">Submit</button>
+                <button id="delete-btn" type="button" class="delete-button" onclick="deleteImg()">Delete</button>
+            </div>
+        </div>
+
+        <div class="image-preview">
+            <h2>Image Preview</h2>
+            <div class="imgcon">
+                <img id="uploadedImage">
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+
+</html>

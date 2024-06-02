@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, wclassth=device-wclassth" />
+    <title>Apple Blotch Disease</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <button onclick="showEnglish()">English</button>
+            <button onclick="showNepali()">नेपाली</button>
+        </div>
+        <h1 class="en">Classified Disease: APPLE {{classification}}</h1>
+        <h1 class="np">छुट्टाएको रोग: स्याउमा धब्वा हुने रोग</h1>
+        <h2 class="en">Introduction</h2>
+        <h2 class="np">परिचय</h2>
+        <p class="en">Apple Blotch is a fungal disease that affects apple and pear trees. It is caused by the fungus
+            Venturia inaequalis and is characterized by the appearance of small, dark, oval-shaped spots on the leaves,
+            flowers, and fruits of affected trees. The spots can vary in size, but they are typically around 1-2 mm in
+            diameter. Apple Blotch can cause significant damage to apple and pear trees, leading to reduced yields,
+            lower fruit quality, and even tree death. The disease is most commonly found in cool and wet climates, and
+            it can spread rapidly through a garden or orchard if not properly managed. Symptoms of Apple Blotch disease
+            include leaf blight and defoliation, premature defoliation, reduced fruit set or abortion, fruit drop or
+            decay, and dieback of branches. To prevent the spread of Apple Blotch, it is important to remove and dispose
+            of any infected leaves, flowers, and fruits, prune infected branches and remove any dead or dying twigs,
+            disinfect pruning tools between cuts, and provide good air circulation around the trees. Fungicides can also
+            be used as part of a disease management program to control Apple Blotch.</p>
+
+        <p class="np">
+            स्याउमा धब्वा हुने रोग एक कबक रोग हो जो स्याउका रूखहरूमा प्रभाव गर्दछ। यसको कारण कबक Venturia inaequalis
+            द्वारा हो र यसको परिचय असरदार पर्ने वृद्धिहरूको पत्ता, फूल र फलहरूमा छोटा, धुरो, अडिओ-आकारका धब्वाहरूको
+            दृश्यात्मक रुपमा निर्देशित गरिएको छ। धब्वाहरूको आकार विभिन्न हुन सक्छ, तर यी साधारणतः १-२ मिमी व्यासमा
+            हुन्छन्। स्याउमा धब्वा हुने रोगले स्याउका रूखहरूमा प्रमुख नुक्सान पुर्याउन सक्छ, जसले
+            उत्पादनमा कमी, फलको गुणस्तरको अधोगति, राखको मौत पनि भएमा सहायक हुन सक्छ। यो रोग शीत र भारी वातावरणमा
+            सबैभन्दा बढी हेरिने छ, र यदि उचित रूपमा व्यवस्थित नगरिएमा एक बगैंचा वा बागवानीमा शीघ्र फैलिन सक्छ। स्याउमा
+            धब्वा हुने रोगको लक्षणहरूमा पत्ता अंधकार र पत्ताको पतन, अशुद्ध पत्ता, फलको अदृश्यता वा गर्भपात, फलको गिरावट
+            वा विपरीतता, र डायब्याकको सम्मर्थन छ। यो रोग फैलाउने निवारण गर्न को लागि, कुनै पनि संक्रमित पत्ता, फूल र
+            फलहरूलाई हटाउन र निस्कृया गर्न, संक्रमित खासडीहरू काट्न र मृत वा मृत हुने ट्विगहरूलाई हटाउन, काट्न
+            उपकरणहरूको बीचमा डिसिन्फेक्ट गर्न, रूखहरू अरूख आवाज तान्नु प्रदान गर्न खासै विशेष गरिन्छ। केटन्डीड्स
+            अनुप्रयोगको रूपमा यो एप्पल ब्लोच रोग नियंत्रणको भागको रूपमा प्रयोग गरिन्छ।
+        </p>
+        <h2 class="en">Symptoms</h2>
+        <h2 class="np">रोगको लक्षण</h2>
+        <p class="en">Apple Blotch disease, caused by the fungus Venturia inaequalis, manifests various symptoms on
+            apple trees. Initially, small dark spots, resembling mildew, appear on leaves, flowers, and fruits.
+            These spots, typically 1-2 mm in diameter, spread rapidly and can lead to premature leaf fall and reduced
+            fruit quality and weight. In severe cases, the disease can result in significant yield loss and even tree
+            death. Apple Blotch is most prevalent in cool, wet climates and can spread swiftly if not managed
+            effectively. Symptoms include leaf blight, premature defoliation, reduced fruit set, fruit drop or decay,
+            and dieback of branches. To mitigate the spread, infected plant parts should be promptly removed, and proper
+            sanitation practices should be followed. Additionally, fungicides can be employed as part of an integrated
+            disease management strategy. Regular monitoring and proactive measures are crucial for minimizing the impact
+            of Apple Blotch disease on orchards and gardens.</p>
+        <p class="np">
+            स्याउको धब्वा हुने रोग , फ्युङ्गस भेन्टुरिया इनाइक्वालिस द्वारा उत्पन्न हुने, स्याउ रुखहरूमा विभिन्न
+            लक्षणहरू देखिन्छ। पहिलोमा, पात, फूल र फलहरूमा बेला, फेकिने भाइरस जस्ता सानो कालो बिन्दुहरू देखिन्छ। यी
+            बिन्दुहरू, सामान्यतया १-२ मिमीको व्यासमा, द्रुतिगत फैलिन्छ र अघिल्लो पातको झर्न र फलको गुणस्तर र तौल कम हुन
+            सक्छ। गम्भीर मामिलामा, यो रोगले ठूलो उत्पादन घाटा र अधिकांश रुखको मृत्यु पनि प्राप्त गर्न सक्छ। स्याउको दादे
+            रोग सर्वाधिक शीतल, मैलो जलवायुमा प्रसारण हुन्छ र यदि सम्यक रूपमा व्यवस्थित नहुँदा द्रुत हराउँदो हुन सक्छ।
+            लक्षणहरूमा पातको फेकिने, अघिल्लो पातको झर्न, फलको गुणस्तर कम हुने, फल झर्न वा बिग्रन, रुखको बांझो र डाइब्याक
+            छन्। फैलाउने रोगको संक्रमणलाई कम गर्न अस्वीकृत प्लान्ट भागहरूलाई तत्काल हटाइनुपर्छ, र उचित स्वच्छता प्रथाहरू
+            पालन गर्नुपर्छ। यसले संक्रमण व्यवस्थापन योजनामा फ्युङ्गिसाइडहरू पनि प्रयोग गरिन्छ। नियमित निगरानी र सक्रिय
+            उपायहरू संक्रमणको प्रभावलाई घटाउन खोरपानीहरू र बगैंचामा स्याउको दादे रोगको प्रभाव न्यूनिकरण गर्न अत्यन्त
+            महत्त्वपूर्ण छ।
+        </p>
+
+        <h2 class="en">Disease Life Cycle</h2>
+        <h2 class="np">रोगको जीवनचक्र</h2>
+        <p class="en">The disease cycle of apple blotch begins when fungal spores, primarily produced on infected
+            leaves, flowers, and fruit from the previous season, are released into the air. These spores are dispersed
+            by wind and rain, landing on susceptible apple and pear trees. In the spring, when conditions are favorable
+            (cool and wet), the spores germinate and infect new plant tissue, particularly young leaves and fruit. The
+            fungus then grows within the host tissue, forming lesions and causing characteristic dark spots on the
+            surface. As the season progresses, the infected tissue produces a new crop of spores, which are released
+            back into the environment to continue the cycle. In autumn, fallen leaves and fruit provide a source of
+            overwintering spores, ensuring the persistence of the disease into the following growing season. Effective
+            management of apple blotch typically involves a combination of cultural practices, such as sanitation and
+            pruning, and chemical control methods, including fungicide applications, to minimize the impact of the
+            disease on orchard productivity..</p>
+        <p class="np">
+            स्याउको धब्बा रोगको जीवन चक्र अब प्रारम्भ हुन्छ जब कि क्षुद्रा बार्षिक दिया रगतिएका पातहरू, फूलहरू, र फलहरू
+            मुख्यतया प्रदान गरिएका फगुसीको ढुसीहरू हवामा मुक्त हुन्छन्। यी ढुसीहरू हावाबाट र पानीद्वारा छाँटिएका
+            हुन्छन्, जसले अवलम्बी स्याउ र नास्पातीका रुखहरूमा लगानुको आशंकित र फलहरू। वसन्तमा, जब स्थितिहरू अनुकूल छन्
+            (शीत र भारी वर्षा), तब ढुसीहरू अंकुरण हुन्छन् र नयाँ बाली, विशेष गरी ताजा पात र फलहरूमा संक्रमण गर्छन्।
+            त्यसपछि, कवकले मात्री अंकुरण गर्छ अन्तर्भुक्त कोशिका भित्र, जसले उपाधि मा रोगको चिन्हरू र लाल धब्बाहरू
+            बनाउँछ। समयअनुसार बढी, संक्रमित ऊतक फेरि वातावरणमा छोडिएका ढुसीहरूको एक नयाँ फसल उत्पन्न गर्दछ, जुन संक्रमण
+            चक्रलाई जारी राख्छ। पात र फलको गिरिने पत्ता र फलहरूले ओभरविन्टरिङ ढुसीहरूको एक स्रोत प्रदान गर्छ, जसले यो
+            रोगलाई आगामी बढी वृद्धि गर्न सुनिश्चित गर्दछ। स्याउको धब्बाको सशक्त व्यवस्थापन सामान्यतया सांस्कृतिक
+            अभ्यासहरूको संयोजन, जसले सफाई र काटनी समेत समावेश गर्दछ, र रोगको प्रभावलाई घटाउने रसायनिक नियन्त्रण विधिहरू,
+            जसमा कवकहरूको प्रयोग गरिएको छ, घरेलु खेतीको उत्पादनको असर न्यूनिकरण गर्न।</p>
+
+        <h2 class="en">Disease Management</h2>
+        <h2 class="np">रोग व्यवस्थापन</h2>
+        <p class="en">Managing apple blotch disease requires a comprehensive approach focused on early detection, timely
+            intervention, and preventive measures. The primary objective is to prevent infections from the initial
+            appearance of ascospores, which are crucial for disease spread. Timely detection of ascospores before apple
+            blossoming is essential to minimize disease incidence.
+
+            In spring, applying fungicides promptly is essential to combat ascospores effectively. Properly timed
+            fungicidal applications can significantly reduce the spread of apple blotch disease. Additionally,
+            implementing sanitation practices such as removing fallen leaves and pruning infected branches between apple
+            blossom and leaf shedding periods is vital. These practices help eliminate potential sources of infection
+            and reduce disease spread within the orchard.
+
+            Selective cultivation of apple varieties that show tolerance to apple blotch disease is another important
+            aspect of disease management. Cultivating resistant varieties can help mitigate the impact of the disease on
+            fruit production and overall orchard health.
+
+            Proper soil management is also critical to minimize the risk of infection. Burying infected soil and
+            preventing water runoff during the rainy season are effective measures. Removing soil from under the tree
+            and composting it can further help prevent the spread of fungal spores, contributing to disease control
+            efforts.</p>
+        <p class="np">
+            आँफैंले तातो रोगको व्यवस्थापन गर्दा अग्रगामी चेतावनी, समयमै हस्तक्षेप, र निवारक उपायहरूमा फोकस गरिएको व्यापक
+            उपायको आवश्यकता अहम्ता राख्नुपर्छ। प्रमुख लक्ष्य खाने सामग्रीको प्रारम्भिक देखिने वीज (एस्कोस्पोर) बाट
+            संक्रमण रोक्ने हो, जुन रोगको प्रसारका लागि महत्त्वपूर्ण छन्। समयमै एस्कोस्पोरको पत्ता लगाउने गरेपछि समयमै
+            देखाईएको समयमा एस्कोस्पोरको पत्ता लगाउन निवारण गर्न महत्त्वपूर्ण छ।
+
+            वसन्तमा, फंगिसाइडहरूलाई कार्यान्वयन गर्न समयमै महत्त्वपूर्ण छ। यस्तो समयमै फंगिसाइडको प्रयोग गर्दा तातो
+            रोगको प्रसार प्रभावी रूपमा समेत कम हुन्छ। सोही भन्दा, स्याउ फुल्ने र पातहरू झरिने अवस्था बीचको अवधिमा गिरेका
+            पातहरूलाई हटाउने र संक्रमित शाखाहरूको काटन पनि जरुरी छ। यी अभ्यासहरू निर्देशित संक्रमणको स्रोतहरूलाई मिटाउने
+            र रोग प्रसार कम गर्न मद्दत गर्छ।
+
+            तातो रोगलाई सहनीय रोगी प्रकार छनोट गर्न अन्य एउटा महत्त्वपूर्ण पक्ष हो। सहनीय प्रकारका बोटहरू खाने सामग्रीको
+            उत्पादन र कुल माला खाने परिणाममा रोगको प्रभाव कम गर्न मद्दत गर्छ।
+
+            ठीक माटो व्यवस्थापन पनि संक्रमणको जोखिम कम गर्न अहम्ता राख्ने हो। संक्रमित माटोलाई गाढा गरेर र वर्षा मौसममा
+            पानी बागिए रोक्न उचित उपायहरू हुन्छन्। रुखको तल भन्दा माटो हटाउने र यसलाई कम्पोस्ट गरेर संक्रमणको स्पोरहरूको
+            प्रसार रोक्न गर्न मद्दत गर्छ।
+        </p>
+
+        <h3 class="en">Management Techniques</h3>
+        <h3 class="np">व्यवस्थापन तरिकाहरु</h3>
+        <p class="en">
+        <ol class="en">
+            <li><strong>Utilization of Disease-Tolerant Varieties:</strong> If there are apple varieties that exhibit
+                tolerance to apple
+                blotch disease, prioritize their cultivation. Planting new varieties resistant to the disease can
+                contribute to effective disease management.</li>
+            <li><strong>Leaf Trimming:</strong> Trim leaves with blotch lesions at the base of the tree to eliminate
+                potential sources of
+                spores for the following spring.</li>
+            <li><strong>Soil Management:</strong> Properly manage soil by burying infected soil and preventing water
+                runoff during the
+                rainy season to minimize disease spread.</li>
+            <li><strong>Sanitation Measures:</strong> Implement strict sanitation practices, especially regarding the
+                removal of previous
+                season's leaves, to prevent overwintering of fungal pathogens.</li>
+            <li><strong>Prompt Removal of Infected Leaves:</strong> Quickly remove infected leaves from apple orchards
+                in early spring to
+                prevent further spread of the disease. Consider spraying with urea solution to facilitate the rapid
+                shedding of infected leaves.</li>
+            <li><strong>Selective Pruning:</strong> Scientifically prune affected shoots to prevent the aerial spread of
+                spores and
+                reduce disease incidence.</li>
+            <li><strong>Appropriate Fungicidal Applications:</strong> Choose fungicides based on the growth stage of
+                buds and apply them
+                judiciously. Understanding the disease's life cycle and environmental conditions is crucial for
+                effective fungicide application.</li>
+            <li><strong>Early Intervention:</strong> Apply fungicides regularly during the early stages of apple growth
+                and development
+                to minimize disease establishment.</li>
+
+        </ol>
+        </p>
+
+        <p class="np">
+        <ol class="np">
+            <li><strong>रोग प्रतिरोधी जातिहरुको उपयोग:</strong> यदि अप्पल विविधताहरू अप्पल ब्लच रोगको तालमेल गर्ने तोले
+                रोग प्रतिरोधी जातिहरू छन् भने, उनीहरूको खेतीमा प्राथमिकता दिनुहोस्। रोग प्रतिरोधी जातिहरूलाई उपयुक्त
+                रूपमा संचालन गर्नले रोग प्रबन्धमा सहयोग पुर्‍याउन सक्छ।</li>
+            <li><strong>पातको काटाको:</strong> रुखको आधारमा फोहोर चिन्हहरू भएका पातहरूलाई काटेर, आउने वसन्तको
+                लागि बीचमा स्पोरको संभावित स्रोतहरूलाई समाप्त गर्नुहोस्।</li>
+            <li><strong>माटो प्रबन्धन:</strong> सहिजले संक्रमित माटोलाई गाडी र वर्षाको मुसिल्ल विविधतामा पानीको
+                बहाव रोक्न दिनुहोस्, रोग प्रसार कम गर्नका लागि।</li>
+            <li><strong>सफाई उपायहरू:</strong> खासगरी फागुन बाघ निकाल्ने गरि, पुर्वी सिजनको पत्ताहरू हटाउने, सुनाउने
+                सखुरापन बचाउने, पाथिक जनाउने, पुरानो सिजनको पत्ताहरू हटाउने, फ्याङ्गल प्याथोजेनको ओभरविन्टरिंग रोक्न
+                लागि।</li>
+            <li><strong>संक्रमित पातहरूको त्वरित निकाल:</strong> फागुन महिनामा स्याउका बागा बागमै संक्रमित पातहरूलाई
+                शीघ्रै निकाल्नुहोस्, रोगको थप प्रसार रोक्नको लागि। फागुन महिनामा फुडी उपाय गर्न, संक्रमित पातहरूको
+                शीघ्र संक्रमण गर्नको लागि युरिया उत्तान छिट्टै हेर्नुहोस्।</li>
+            <li><strong>चयनात्मक प्रुनिङ:</strong> संवैज्ञानिक रूपमा प्रभावित ब्राञ्चहरूको प्रुनिङ गरेर स्पोरको
+                हावामा प्रसारको रोकथाम गर्नुहोस् र रोगको प्रसार घटाउनुहोस्।</li>
+            <li><strong>उपयुक्त ढुसीनाशक लाग्यो:</strong> फुडीका वृद्धि अवस्थानुसार ढुसीनाशक चयन गर्नुहोस् र उनीहरूलाई
+                विवेकपूर्वक लाग्नुहोस्। रोगको जीवन चक्र र वातावरणीय स्थितिहरू सहजमा सम्झना गर्नु अत्यन्तै महत्वपूर्ण
+                छ अवस्थामा ढुसीनाशक लाग्नुहोस्।</li>
+            <li><strong>अग्रिम हस्तक्षेप:</strong> स्याउको बढी र विकासको शुरुवाती चरणमा नियमित रूपमा ढुसीनाशक लाग्नुहोस्
+                र रोग स्थापना कम गर्नुहोस्।</li>
+        </ol>
+        </p>
+
+        <div class="language-selector">
+            <button onclick="showEnglish()">English</button>
+            <button onclick="showNepali()">नेपाली</button>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='result.js') }}"></script>
+</body>
+
+</html>

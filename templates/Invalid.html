@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, wclassth=device-wclassth" />
+    <title>Invalid Image</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='result.css') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="language-selector">
+            <button onclick="showEnglish()">English</button>
+            <button onclick="showNepali()">नेपाली</button>
+        </div>
+
+        <h1 class="en"><span class="text">Selected Image is Invalid !!!</span> Please Select Apple Image</h1>
+        <h1 class="np"><span class="text"> चयनित तस्वीर अवैध छ!!!</span> कृपया स्याउको तस्वीर चयन गर्नुहोस्।</h1>
+    </div>
+
+    <script src="{{ url_for('static', filename='result.js') }}"></script>
+</body>
+
+</html>
